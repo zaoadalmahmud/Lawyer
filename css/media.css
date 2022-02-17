@@ -1,0 +1,138 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 991px){
+    .banner h1 {
+        font-size: 40px;
+    }
+    .terms p {
+        width: 40%;
+    }
+    .language h1 {
+        font-size: 24px;
+    }
+    .wwa {
+        margin-bottom: 0px;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+    .height {
+        min-height: 70vh;
+    }
+    .banner {
+        position: relative;
+    }
+    .terms p {
+        width: 60%;
+    }
+    .terms ul {
+        width: 30%;
+    }
+    .l_top h1 {
+        margin-bottom: 40px;
+    }
+    .attorney_title{
+        margin: auto 0;
+    }
+    .wwa {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .banner h1 {
+        font-size: 34px;
+    }
+    .height {
+        min-height: 60vh;
+    }
+    .banner {
+        position: relative;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .wwa {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .d-flex {
+        display: unset !important;
+    }
+    .oa span {
+        margin-top: 0%;
+    }
+    .terms {
+        display: unset;
+        justify-content: unset;
+    }
+    .terms p {
+        width: 100%;
+        text-align: center;
+    }
+    ol, ul {
+        padding-left: unset !important;
+    }
+    .terms ul {
+        width: 60%;
+        margin: auto;
+    }
+    
+  }
